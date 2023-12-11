@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Experience() {
+export default function ExperiencePage() {
   return (
     <div>Experience</div>
   )
