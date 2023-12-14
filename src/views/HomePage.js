@@ -1,10 +1,10 @@
 import React from 'react'
 import HomeContent from '../components/HomeContent'
 
+// This is where I would fetch stuff from API and send as props to components or save as state variable.
 export default function Home() {
   return (
     <div>
-      <h1 className='text-3xl font-bold underline'>Hello World</h1>
       <HomeContent />
     </div>
   )
