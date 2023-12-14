@@ -20,7 +20,7 @@ export default function ProjectPage() {
         },
       ];
   return (
-    <div className='m-auto'>ProjectPage
+    <div className='m-auto w-5/12'>ProjectPage
         <div className="flex flex-col gap-6">
         {cards.map((card, index) => (
           <Card key={index} {...card} />
