@@ -4,8 +4,8 @@ export default function HomeContent() {
   return (
     <>
       <h1 className="font-bold text-5xl my-4">Lorem ipsum dolor sit.</h1>
-      <div className="p-10 flex justify-center items-baseline h-full">
-        <div className="">
+      <div className="p-10 flex justify-center items-baseline m-auto max-w-screen-lg ">
+        <div className="min-w-min">
           <img
             src="https://thispersondoesnotexist.com/"
             alt="profile"
