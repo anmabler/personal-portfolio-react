@@ -8,7 +8,7 @@ export default function Navbar() {
         <ul className='flex flex-col gap-y-20 mt-6'>
           <NavLink className='p-5' to="/">Home</NavLink>
           <NavLink className='p-5' to="/about">About me</NavLink>
-          <NavLink className='p-5' to="/experience">Experience</NavLink>
+          {/* <NavLink className='p-5' to="/experience">Experience</NavLink> */}
           <NavLink className='p-5' to="/projects">Projects</NavLink>
           <NavLink className='p-5' to="/contact">Contact</NavLink>
         </ul>
