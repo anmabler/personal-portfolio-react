@@ -1,29 +1,27 @@
 import React from "react";
+import martina from '../images/20210818_110104.jpg'
 
 export default function HomeContent() {
   return (
     <>
-      <h1 className="font-bold text-5xl my-4">Lorem ipsum dolor sit.</h1>
-      <div className="p-10 flex justify-center items-baseline m-auto max-w-screen-lg ">
+      <h1 className="font-bold text-5xl my-4">Martina Blixt Eriksson</h1>
+      <div className="p-10 flex justify-center items-baseline m-auto max-w-screen-md ">
         <div className="min-w-min">
           <img
-            src="https://thispersondoesnotexist.com/"
+            src={martina}
             alt="profile"
             className="object-cover rounded-full"
           />
         </div>
 
-        <div>
-          <p className="p-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum
-            est odit animi ipsa odio quas itaque accusamus, quia atque impedit.
-            Aliquid, a facere doloremque doloribus minima voluptatum aspernatur
-            corrupti nisi cupiditate? Ducimus animi temporibus voluptates autem
-            nemo optio atque unde assumenda recusandae provident aliquam
-            doloremque nisi, necessitatibus quo, similique architecto!
-          </p>
-        </div>
       </div>
+        <div className="text-left">
+          <h1 className="font-bold text-3xl my-4">Welcome to my Portfolio website!</h1>
+          <p className="">
+            I am a junior developer with a passion for learning.
+          </p>
+          <p>I'm currently attending a full stack course in C# and JavaScript. See the "About me" page for more information.</p>
+        </div>
     </>
   );
 }
