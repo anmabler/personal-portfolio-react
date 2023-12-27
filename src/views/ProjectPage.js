@@ -34,7 +34,7 @@ export default function ProjectPage() {
     <div className='m-auto w-5/12'>ProjectPage
         <div className="flex flex-col gap-6">
         {cards.map((card, index) => (
-          <a href={card.address}><Card key={index} {...card} /></a>
+          <a href={card.address} key={index}><Card {...card} /></a>
         ))}
       </div>
     </div>
