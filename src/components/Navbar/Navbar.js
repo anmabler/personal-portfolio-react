@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 
 export default function Navbar() {
   return (
-    <div className="min-h-screen w-4/12 max-w-sm min-w-fit  bg-slate-500">
+    <div className="min-h-screen w-4/12 max-w-sm min-w-fit  bg-lavender">
       <h1 className='font-bold text-xl my-10'>Martina</h1>
       <hr />
         <ul className='flex flex-col gap-y-20 mt-6'>
