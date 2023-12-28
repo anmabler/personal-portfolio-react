@@ -6,10 +6,12 @@ import ExperiencePage from './views/ExperiencePage';
 import ContactPage from './views/ContactPage';
 import Navbar from './components/Navbar/Navbar';
 import ProjectPage from './views/ProjectPage';
+import wordcloud from './images/wordcloudsquare.png'
 
 function App() {
   return (
-    <div className="App flex">
+    <div className="App flex bg-contain"
+      style={{backgroundImage: `url(${wordcloud})`}}>
       <BrowserRouter>
         <Navbar />
         <Routes>
