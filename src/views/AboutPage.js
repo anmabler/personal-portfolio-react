@@ -32,7 +32,8 @@ export default function AboutPage() {
       </div>
       <div className='m-20 text-left'>
         <h3 className='font-bold text-lg mb-4'>Personal</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et fugit rem nemo reiciendis odit quos, officiis inventore, incidunt recusandae, quae explicabo. Ipsam asperiores, laborum debitis ipsum ex earum eligendi! Voluptas quidem repudiandae reiciendis maiores quas, quaerat dolorem repellat, consequatur saepe labore commodi provident. Deserunt, consequatur aliquam. Reiciendis odit quis sit hic saepe. Eveniet quo sit harum dolorem laboriosam recusandae tempore qui, est, officiis similique, enim consequuntur. Dolorum ex dignissimos assumenda.</p>
+        <p>My greatest passion in life is being creative. I have a lot of hobbies and love being crafty. A few years ago I was educated in cabinet making.</p>
+        <p>Another big interest that I have had all of my life is computers and gaming.</p>
       </div>
 
     </div>
