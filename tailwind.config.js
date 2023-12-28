@@ -4,7 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'teal-bg': '#378895DB'
+        'teal-bg': '#378895DB',
+        'orchid-pink': '#D4AFB9',
+        'lavender': '#D1CFE2',
+        'powder-blue': "#9CADCE",
+        'moonstone': "#52B2CF"
       }
     },
   },
