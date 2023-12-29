@@ -10,7 +10,7 @@ export default function HomeContent() {
           <img
             src={martina}
             alt="profile"
-            className="object-cover rounded-full"
+            className="object-cover rounded-full shadow-2xl"
           />
         </div>
 
