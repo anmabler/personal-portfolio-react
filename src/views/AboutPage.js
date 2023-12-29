@@ -1,11 +1,9 @@
 import React from 'react'
-import wordcloud from '../images/wordcloud3.png'
 
 export default function AboutPage() {
   return (
     <div 
-    className="mb-10 w-full bg-cover bg-local"
-      style={{backgroundImage: `url(${wordcloud})`}}>
+    className="mb-10 w-full">
       <div className='max-w-xl m-auto'>
         <div className='m-20 text-left bg-teal-bg p-10 rounded-2xl shadow-xl'>
           <h3 className='font-bold text-lg mb-4'>Work experience</h3>
